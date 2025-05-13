@@ -94,7 +94,7 @@ function generateMockData(type = CONFIG.DEFAULT_DATA_TYPE) {
           comments: Math.floor(Math.random() * 500),
           isVideo, 
           media:  isVideo 
-          ? `https://sample-videos.com/video123/mp4/720/big_buck_bunny_720p_1mb.mp4?${tiype}`
+          ? `https://sample-videos.com/video123/mp4/720/big_buck_bunny_720p_1mb.mp4?${type}`
           : `https://picsum.photos/400/${Math.floor(300 + Math.random() * 200)}?random=${type}`
       });
   }
