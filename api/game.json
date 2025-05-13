@@ -1,0 +1,17 @@
+[
+    {
+      "id": 1,
+      "type": "image",
+      "title": "新版本英雄调整公告",
+      "media": "https://picsum.photos/300/400?random=1"
+    },
+    {
+      "id": 2,
+      "type": "video",
+      "title": "新皮肤特效预览",
+      "media": "https://example.com/video1.mp4"
+    }
+  ]
+  
+
+  

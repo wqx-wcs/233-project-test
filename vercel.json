@@ -1,0 +1,11 @@
+{
+    "version": 1.0,
+    "routes": [
+      {
+        "src": "/api/(.*)",
+        "dest": "/api/[[type]].js",
+        "methods": ["GET"]
+      }
+    ]
+  }
+  
