@@ -1,25 +1,30 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>233乐园社区发现页</title>
-  <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>233乐园 - 社区发现</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <!-- 顶部导航栏（简化版） -->
-  <div class="tabs">
-    <button class="active">发现</button>
-    <button>游戏圈</button>
-    <button>模拟校园</button>
-  </div>
-
-  <!-- 瀑布流内容区域 -->
-  <div class="waterfall" id="waterfall"></div>
-
-  <!-- 加载提示 -->
-  <div class="loader" id="loader">加载中...</div>
-
-  <script src="script.js"></script>
+    <div class="header">
+        <h1>社区发现</h1>
+    </div>
+    
+    <div class="tabs">
+        <div class="tab active">发现</div>
+        <div class="tab">游戏圈</div>
+        <div class="tab">模拟校园</div>
+    </div>
+    
+    <div class="content">
+        <div class="column" id="column1"></div>
+        <div class="column" id="column2"></div>
+    </div>
+    
+    <div class="loading" id="loading">加载中...</div>
+    <div class="refresh" id="refresh">下拉刷新</div>
+    
+    <script src="script.js"></script>
 </body>
 </html>
